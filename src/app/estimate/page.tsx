@@ -97,17 +97,15 @@ export default function EstimatePage() {
             {/* Service area */}
             <div className="bg-gray-900 rounded-2xl p-6 border border-gray-700">
               <h3 className="font-bold text-white mb-4">Service Areas</h3>
-              <ul className="text-sm text-gray-400 space-y-2.5">
-                {[
-                  "Rexburg, ID",
-                  "Idaho Falls, ID",
-                  "Driggs, ID",
-                  "Jackson Hole, WY",
-                  "Southeast Idaho & Wyoming",
-                ].map((area) => (
-                  <li key={area} className="flex items-center gap-2">
+              <p className="text-sm text-gray-400 mb-3">
+                <span className="text-white font-semibold">Based in</span> Rexburg, ID &amp; Jackson, WY
+              </p>
+              <p className="text-xs text-gray-500 uppercase tracking-widest mb-2">Serving</p>
+              <ul className="text-sm text-gray-400 space-y-2">
+                {["Idaho", "Montana", "Wyoming"].map((state) => (
+                  <li key={state} className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-orange flex-shrink-0" />
-                    {area}
+                    {state}
                   </li>
                 ))}
               </ul>
