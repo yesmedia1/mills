@@ -196,7 +196,7 @@ export default function EstimateForm() {
           name="description"
           required
           rows={5}
-          placeholder="Describe your project — scope of work, site conditions, any special requirements or specs..."
+          placeholder="Describe your project: scope of work, site conditions, any special requirements or specs..."
           className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:border-brand-orange focus:ring-2 focus:ring-brand-orange/20 transition resize-none"
         />
       </div>

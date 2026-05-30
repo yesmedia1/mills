@@ -15,7 +15,7 @@ const services = [
   {
     title: "Commercial",
     description:
-      "Full-service commercial concrete — tilt-up construction, post-tensioned slabs, parking structures, retail and office buildings. On time and within budget.",
+      "Full-service commercial concrete: tilt-up construction, post-tensioned slabs, parking structures, retail and office buildings. On time and within budget.",
     href: "/services#commercial",
     icon: (
       <svg className="w-10 h-10 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ const services = [
   {
     title: "Residential",
     description:
-      "Driveways, foundations, patios, and flatwork that add lasting value to your home. Quality craftsmanship at every scale — from a single slab to a full foundation.",
+      "Driveways, foundations, patios, and flatwork that add lasting value to your home. Quality craftsmanship at every scale, from a single slab to a full foundation.",
     href: "/services#residential",
     icon: (
       <svg className="w-10 h-10 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,7 +73,7 @@ export default function ServicesSection() {
 
         <div className="text-center mt-14">
           <p className="text-gray-500 mb-5">
-            Not sure what you need? Let&apos;s figure it out together — estimates are free.
+            Not sure what you need? Let&apos;s figure it out together. Estimates are free.
           </p>
           <Link
             href="/estimate"

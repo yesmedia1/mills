@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Our Team | Mills Concrete",
-  description: "Meet the Mills Concrete team — Southeast Idaho's concrete construction experts.",
+  description: "Meet the Mills Concrete team. Southeast Idaho's concrete construction experts.",
 };
 
 export default function OurTeamPage() {
@@ -16,7 +16,7 @@ export default function OurTeamPage() {
           </p>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Our Team</h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            121 employees strong — and growing. Meet the crew that keeps Southeast Idaho&apos;s concrete moving.
+            121 employees strong and growing. Meet the crew that keeps Southeast Idaho&apos;s concrete moving.
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@ export default function OurTeamPage() {
           href="/estimate"
           className="inline-block bg-brand-orange text-white font-bold px-10 py-4 rounded-lg hover:bg-orange-600 transition-colors"
         >
-          Work with Our Team — Get an Estimate
+          Work with Our Team. Get an Estimate.
         </Link>
       </div>
     </div>

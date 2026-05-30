@@ -23,7 +23,7 @@ export default function Hero() {
             Southeast Idaho&apos;s Premier Concrete Construction Company
           </h1>
           <p className="text-lg text-gray-300 mb-10 max-w-2xl leading-relaxed">
-            Since 2009, Mills Concrete has delivered top-quality concrete construction on hundreds of projects across Idaho and Wyoming. Turn-key solutions — on time, on budget, every time.
+            Since 2009, Mills Concrete has delivered top-quality concrete construction on hundreds of projects across Idaho and Wyoming. Turn-key solutions, on time, on budget, every time.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

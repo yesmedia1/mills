@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Employment | Mills Concrete",
   description:
-    "Join the Mills Concrete team — concrete construction careers in Southeast Idaho and Wyoming.",
+    "Join the Mills Concrete team. Concrete construction careers in Southeast Idaho and Wyoming.",
 };
 
 const perks = [

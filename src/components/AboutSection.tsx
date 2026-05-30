@@ -3,7 +3,7 @@ import Link from "next/link";
 const highlights = [
   "Responsiveness, flexibility, and open communication on every project",
   "Exceptional management, organization, and crew resources",
-  "Safety-first culture — OSHA certified team",
+  "Safety-first culture, OSHA certified team",
   "Always on budget and on schedule",
   "ACI, TCA, PTI certified specialists",
 ];
@@ -18,7 +18,7 @@ export default function AboutSection() {
               About Mills Concrete
             </p>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6">
-              More Than Concrete — <br className="hidden sm:block" />We Deliver Excellence
+              More Than Concrete. <br className="hidden sm:block" />We Deliver Excellence.
             </h2>
             <p className="text-gray-600 leading-relaxed mb-5">
               Mills Concrete is Southeast Idaho&apos;s premiere, turn-key commercial concrete construction company. Since 2009, our company has satisfied customers with top-quality concrete construction services on hundreds of projects in Idaho and Wyoming.

@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     heading: "Local Expertise",
-    body: "We know Idaho and Wyoming — the land, the climate, the codes.",
+    body: "We know Idaho and Wyoming: the land, the climate, the codes.",
   },
 ];
 
@@ -73,14 +73,14 @@ export default function EstimatePage() {
               Project Details
             </h2>
             <p className="text-gray-500 mb-8">
-              Fill in what you know — we&apos;ll follow up if we have questions.
+              Fill in what you know. We&apos;ll follow up if we have questions.
             </p>
             <EstimateForm />
           </div>
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Call card — orange border to make it pop */}
+            {/* Call card - orange border to make it pop */}
             <div className="bg-gray-900 text-white rounded-2xl p-6 border-2 border-brand-orange">
               <h3 className="font-bold text-lg mb-3">Prefer to Call?</h3>
               <p className="text-gray-400 text-sm mb-5">
@@ -119,7 +119,7 @@ export default function EstimatePage() {
                   "We review your project details",
                   "We may reach out to clarify scope",
                   "You receive a detailed estimate",
-                  "We get to work — on time, on budget",
+                  "We get to work, on time and on budget",
                 ].map((step, i) => (
                   <li key={i} className="flex gap-3 items-start">
                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-brand-orange text-white text-xs flex items-center justify-center font-bold mt-0.5">

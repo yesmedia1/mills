@@ -25,9 +25,9 @@ const services = [
   {
     id: "commercial",
     title: "Commercial",
-    tagline: "Full-service commercial concrete — start to finish.",
+    tagline: "Full-service commercial concrete, start to finish.",
     description:
-      "Mills Concrete is the trusted partner for commercial general contractors and developers across Southeast Idaho and Wyoming. We provide turn-key concrete services — from layout and forming through finishing and curing — keeping your project on schedule and within budget.",
+      "Mills Concrete is the trusted partner for commercial general contractors and developers across Southeast Idaho and Wyoming. We provide turn-key concrete services from layout and forming through finishing and curing, keeping your project on schedule and within budget.",
     capabilities: [
       "Retail, office, and mixed-use slab work",
       "Tilt-up concrete construction",

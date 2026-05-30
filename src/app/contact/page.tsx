@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contact | Mills Concrete",
   description:
-    "Contact Mills Concrete — Southeast Idaho's premiere concrete construction company. Call, email, or request an estimate.",
+    "Contact Mills Concrete. Southeast Idaho's premiere concrete construction company. Call, email, or request an estimate.",
 };
 
 export default function ContactPage() {
