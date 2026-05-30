@@ -31,7 +31,7 @@ export default function EstimateCTA() {
           </a>
         </div>
         <p className="mt-10 text-orange-200 text-sm">
-          Serving Rexburg · Idaho Falls · Driggs · Jackson Hole and the greater Southeast Idaho region
+          Serving East Idaho · Jackson, WY · Wyoming · Montana and surrounding regions
         </p>
       </div>
     </section>
