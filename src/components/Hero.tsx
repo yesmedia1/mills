@@ -9,7 +9,7 @@ export default function Hero() {
         alt=""
         fill
         priority
-        className="object-cover opacity-[0.65]"
+        className="object-cover opacity-50"
       />
       {/* Dark overlay to keep text readable */}
       <div className="absolute inset-0 bg-black/40" />
