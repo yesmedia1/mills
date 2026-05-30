@@ -102,7 +102,7 @@ export default function EstimatePage() {
               </p>
               <p className="text-xs text-gray-500 uppercase tracking-widest mb-2">Serving</p>
               <ul className="text-sm text-gray-400 space-y-2">
-                {["Idaho", "Montana", "Wyoming"].map((state) => (
+                {["Idaho", "Wyoming", "Montana"].map((state) => (
                   <li key={state} className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-orange flex-shrink-0" />
                     {state}
