@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services | Mills Concrete",
   description:
-    "Industrial, commercial, and residential concrete construction services in Southeast Idaho and Wyoming.",
+    "Industrial, commercial, residential, and heavy civil concrete construction services across East Idaho, Wyoming, and Montana.",
 };
 
 const services = [
@@ -50,6 +50,21 @@ const services = [
       "Decorative and stamped concrete",
     ],
   },
+  {
+    id: "heavy-civil",
+    title: "Heavy Civil",
+    tagline: "Built for infrastructure. Built to last.",
+    description:
+      "Mills Concrete has the crew, equipment, and expertise to take on large-scale civil infrastructure projects. From water tanks to highway structures and public works, we build to DOT specs and engineer every pour for the long haul. Our recent water tank work is a testament to the precision and scale we bring to civil projects.",
+    capabilities: [
+      "Water tanks and water treatment structures",
+      "Bridges and bridge decks",
+      "Culverts and drainage structures",
+      "Retaining walls",
+      "Highway and DOT structures",
+      "Public works and municipal projects",
+    ],
+  },
 ];
 
 export default function ServicesPage() {
@@ -63,7 +78,7 @@ export default function ServicesPage() {
           </p>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5">Our Services</h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Industrial, commercial, and residential concrete construction delivered by an experienced Idaho crew with a proven track record.
+            Industrial, commercial, residential, and heavy civil concrete construction delivered by an experienced crew with a proven track record across East Idaho, Wyoming, and Montana.
           </p>
         </div>
       </div>
