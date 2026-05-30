@@ -21,7 +21,7 @@ export default function Footer() {
               alt="Mills Concrete"
               width={220}
               height={77}
-              className="h-12 w-auto mb-5 brightness-0 invert"
+              className="h-12 w-auto mb-5"
             />
             <p className="text-sm leading-relaxed mb-6">
               Southeast Idaho&apos;s premiere turn-key commercial concrete construction company. Serving Idaho and Wyoming since 2009.
