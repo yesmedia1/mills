@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-black/90 to-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-28">
           <Link href="/" className="flex-shrink-0">
             <Image
               src="/logo.png"
@@ -26,7 +26,7 @@ export default function Navbar() {
               width={240}
               height={84}
               priority
-              className="h-14 w-auto"
+              className="h-20 w-auto"
             />
           </Link>
 

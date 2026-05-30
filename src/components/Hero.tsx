@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative bg-gray-900 text-white overflow-hidden min-h-[600px] flex items-center -mt-20">
+    <section className="relative bg-gray-900 text-white overflow-hidden min-h-[600px] flex items-center -mt-28">
       <Image
         src="/backdrop.jpg"
         alt=""
@@ -14,7 +14,7 @@ export default function Hero() {
       {/* Dark overlay to keep text readable */}
       <div className="absolute inset-0 bg-black/40" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-40 pb-28 lg:pt-52 lg:pb-40 w-full">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-48 pb-28 lg:pt-56 lg:pb-40 w-full">
         <div className="max-w-3xl">
           <p className="text-brand-orange font-bold text-sm tracking-[0.2em] uppercase mb-5">
             Industrial · Commercial · Residential · Heavy Civil
