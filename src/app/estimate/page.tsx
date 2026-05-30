@@ -28,7 +28,7 @@ const benefits = [
 
 export default function EstimatePage() {
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-brand-black min-h-screen">
       {/* Page header */}
       <div className="bg-brand-black text-white py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -46,7 +46,7 @@ export default function EstimatePage() {
       </div>
 
       {/* Benefits bar */}
-      <div className="bg-white border-b border-gray-100 py-10">
+      <div className="bg-gray-900 border-b border-gray-800 py-10">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
             {benefits.map((b) => (
@@ -56,8 +56,8 @@ export default function EstimatePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="font-bold text-gray-900 mb-1">{b.heading}</h3>
-                <p className="text-sm text-gray-500">{b.body}</p>
+                <h3 className="font-bold text-white mb-1">{b.heading}</h3>
+                <p className="text-sm text-gray-400">{b.body}</p>
               </div>
             ))}
           </div>
@@ -68,7 +68,7 @@ export default function EstimatePage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Form card */}
-          <div className="lg:col-span-2 bg-white rounded-2xl shadow-sm p-8 md:p-10 border border-gray-100">
+          <div className="lg:col-span-2 bg-white rounded-2xl shadow-sm p-8 md:p-10 border border-gray-200">
             <h2 className="text-2xl font-extrabold text-gray-900 mb-2">
               Project Details
             </h2>
@@ -80,8 +80,8 @@ export default function EstimatePage() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Call card */}
-            <div className="bg-brand-black text-white rounded-2xl p-6">
+            {/* Call card — orange border to make it pop */}
+            <div className="bg-gray-900 text-white rounded-2xl p-6 border-2 border-brand-orange">
               <h3 className="font-bold text-lg mb-3">Prefer to Call?</h3>
               <p className="text-gray-400 text-sm mb-5">
                 Give us a call and we&apos;ll talk through your project right away.
@@ -95,9 +95,9 @@ export default function EstimatePage() {
             </div>
 
             {/* Service area */}
-            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-4">Service Areas</h3>
-              <ul className="text-sm text-gray-600 space-y-2.5">
+            <div className="bg-gray-900 rounded-2xl p-6 border border-gray-700">
+              <h3 className="font-bold text-white mb-4">Service Areas</h3>
+              <ul className="text-sm text-gray-400 space-y-2.5">
                 {[
                   "Rexburg, ID",
                   "Idaho Falls, ID",
@@ -114,9 +114,9 @@ export default function EstimatePage() {
             </div>
 
             {/* What happens next */}
-            <div className="bg-orange-50 border border-orange-100 rounded-2xl p-6">
-              <h3 className="font-bold text-gray-900 mb-4">What Happens Next?</h3>
-              <ol className="text-sm text-gray-700 space-y-4">
+            <div className="bg-gray-900 border border-gray-700 rounded-2xl p-6">
+              <h3 className="font-bold text-white mb-4">What Happens Next?</h3>
+              <ol className="text-sm text-gray-400 space-y-4">
                 {[
                   "We review your project details",
                   "We may reach out to clarify scope",
