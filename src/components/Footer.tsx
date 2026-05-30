@@ -83,9 +83,9 @@ export default function Footer() {
                 </a>
               </p>
               <p className="text-gray-500">
-                Serving Driggs, ID &middot; Jackson Hole, WY
+                Bases in Rexburg, ID &amp; Jackson, WY
                 <br />
-                and all of Southeast Idaho
+                Serving Idaho, Wyoming, Montana
               </p>
             </address>
             <Link
