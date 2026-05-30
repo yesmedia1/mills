@@ -16,7 +16,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-black/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex-shrink-0">
@@ -26,7 +26,7 @@ export default function Navbar() {
               width={240}
               height={84}
               priority
-              className="h-14 w-auto"
+              className="h-14 w-auto brightness-0 invert"
             />
           </Link>
 
@@ -35,7 +35,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-gray-700 hover:text-brand-orange transition-colors"
+                className="text-sm font-medium text-white hover:text-brand-orange transition-colors"
               >
                 {link.label}
               </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
           </nav>
 
           <button
-            className="md:hidden p-2 text-gray-700"
+            className="md:hidden p-2 text-white"
             onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
           >
@@ -65,12 +65,12 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="md:hidden border-t border-gray-200 bg-white px-4 pb-4">
+        <div className="md:hidden border-t border-white/10 bg-black/95 px-4 pb-4">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="block py-2.5 text-gray-700 hover:text-brand-orange font-medium"
+              className="block py-2.5 text-white hover:text-brand-orange font-medium"
               onClick={() => setOpen(false)}
             >
               {link.label}
