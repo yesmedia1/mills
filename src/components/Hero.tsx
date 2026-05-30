@@ -1,18 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative bg-gray-900 text-white overflow-hidden min-h-[600px] flex items-center">
-      {/* Placeholder background — replace with: <Image src="/hero-bg.jpg" fill alt="" className="object-cover opacity-40" /> */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900" />
-      <div
-        className="absolute inset-0 opacity-10"
-        style={{
-          backgroundImage:
-            "repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)",
-          backgroundSize: "20px 20px",
-        }}
+      <Image
+        src="/backdrop.jpg"
+        alt=""
+        fill
+        priority
+        className="object-cover opacity-[0.65]"
       />
+      {/* Dark overlay to keep text readable */}
+      <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 lg:py-40 w-full">
         <div className="max-w-3xl">
