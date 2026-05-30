@@ -37,7 +37,7 @@ const services = [
   {
     title: "Heavy Civil",
     description:
-      "Large-scale civil infrastructure concrete: bridges, culverts, retaining walls, highway structures, and public works projects built to DOT specs and engineered for the long haul.",
+      "Large-scale civil infrastructure concrete: bridges, culverts, retaining walls, water tanks, highway structures, and public works projects built to DOT specs and engineered for the long haul.",
     href: "/services#heavy-civil",
     icon: (
       <svg className="w-10 h-10 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
