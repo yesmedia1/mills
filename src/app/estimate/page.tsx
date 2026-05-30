@@ -98,7 +98,7 @@ export default function EstimatePage() {
             <div className="bg-gray-900 rounded-2xl p-6 border border-gray-700">
               <h3 className="font-bold text-white mb-4">Service Areas</h3>
               <p className="text-sm text-gray-400 mb-3">
-                <span className="text-white font-semibold">Based in</span> Rexburg, ID &amp; Jackson, WY
+                <span className="text-white font-semibold">Bases in</span>{" "}Rexburg, ID &amp; Jackson, WY
               </p>
               <p className="text-xs text-gray-500 uppercase tracking-widest mb-2">Serving</p>
               <ul className="text-sm text-gray-400 space-y-2">
