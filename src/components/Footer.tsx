@@ -98,7 +98,18 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
-          <p>&copy; 2026 Mills Concrete. All rights reserved.</p>
+          <div className="flex flex-col sm:flex-row items-center gap-3">
+            <p>&copy; 2026 Mills Concrete. All rights reserved.</p>
+            <span className="hidden sm:inline text-gray-700">·</span>
+            <a
+              href="https://www.yesmedia1.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-brand-orange transition-colors"
+            >
+              Powered by Yes! Media by Satterfield Marketing
+            </a>
+          </div>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-brand-orange transition-colors">
               Privacy Policy
