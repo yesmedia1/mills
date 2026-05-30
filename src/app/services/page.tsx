@@ -71,7 +71,7 @@ export default function ServicesPage() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-brand-black text-white py-20">
+      <div className="bg-brand-black text-white pt-36 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-3">
             What We Do
